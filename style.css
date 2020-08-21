@@ -185,3 +185,31 @@ section {
     align-items: center;
     justify-content: space-evenly;
 }
+#beige-square {
+    position: absolute;
+    height: 150px;
+    width: 400px;
+    background: #f3db9b;
+    z-index: -1;
+    left: 150px;
+    top: 1220px;
+}
+
+#black-square2 {
+    position: absolute;
+    height: 150px;
+    width: 400px;
+    background: black;
+    z-index: -1;
+    right: 150px;
+    top: 1320px;
+}
+
+#seccion3 {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+
+#col31 {
+    
+}
