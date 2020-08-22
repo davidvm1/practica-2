@@ -126,6 +126,7 @@ section {
 }
 
 .card1 {
+  position: relative;
   display: grid;
   height: 100%;
   justify-items: center;
@@ -192,8 +193,8 @@ section {
   width: 400px;
   background: #f3db9b;
   z-index: -1;
-  left: 150px;
-  top: 1220px;
+  top: 25px;
+  left: 4px;
 }
 
 #black-square2 {
@@ -202,8 +203,8 @@ section {
   width: 400px;
   background: black;
   z-index: -1;
-  right: 150px;
-  top: 1320px;
+  right: -60px;
+  top: 200px;
 }
 
 #seccion3 {
@@ -350,8 +351,7 @@ footer {
   align-items: center;
 }
 
-footer pre{
+footer pre {
   height: 200px;
   font-size: 2rem;
 }
-
