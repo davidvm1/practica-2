@@ -47,6 +47,7 @@ header nav {
 main {
   display: grid;
   grid-template-rows: repeat(4, 1fr);
+  height: fit-content;
 }
 
 section {
@@ -342,3 +343,15 @@ section {
   left: 700px;
   top: 530px;
 }
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer pre{
+  height: 200px;
+  font-size: 2rem;
+}
+
